@@ -23,34 +23,13 @@ This repository is designed to support professional software engineering workflo
 # Repository Structure
 
 ```text
-ai-engineering-playbook/
-│
-├── shared/
-│   ├── engineering-principles.md
-│   ├── dotnet-standards.md
-│   ├── tdd-guidelines.md
-│   └── code-review-checklist.md
+ai-engineering-agents/
 │
 ├── github-copilot/
-│   ├── instructions/
 │   ├── agents/
-│   ├── skills/
-│   └── prompts/
-│
-├── claude/
-│   ├── agents/
-│   ├── commands/
-│   └── prompts/
-│
-├── prompts/
-│   ├── review-code.md
-│   ├── generate-tests.md
-│   ├── refactor-service.md
-│   └── sql-performance-review.md
-│
-├── examples/
-│   ├── tdd-flow-example.md
-│   ├── review-example.md
-│   └── architecture-example.md
-│
+│   │   ├── csharp-agent.md
+│   │   └── csharp-code-reviewer.md
+│   └── skills/
+│       └── csharp-optimizer/
+│           └── SKILL.md
 └── README.md
